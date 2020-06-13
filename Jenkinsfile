@@ -8,6 +8,7 @@ pipeline {
                     // Upload files from working directory 'dist' in your project workspace
                     s3Upload(file:'index.html', bucket:'jenkins-udacity-victorgrubio', path:'/index.html')
                 }
-        }
+            }
+        }   
     }
 }
